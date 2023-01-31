@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="try_again">Intenta de nuevo</string>
+    <string name="generic_error">Hubo un error. Intente nuevamente.</string>
+    <string name="new_expense">Nuevo gasto</string>
+    <string name="c_food">Comida</string>
+    <string name="c_supermarket">Supermercado</string>
+    <string name="c_health">Salud</string>
+    <string name="c_shopping">Compras</string>
+    <string name="c_transportation">Transporte</string>
+    <string name="c_insurance">Seguro</string>
+    <string name="c_services">Servicios</string>
+    <string name="c_drinks">Bebidas</string>
+    <string name="c_others">Otros</string>
+    <string name="c_entertainment">Entretenimiento</string>
+    <string name="categories">Categorias</string>
+    <string name="balance">Balance</string>
+    <string name="total">Total</string>
+    <string name="of">de</string>
+    <string name="summary">Resumen</string>
+    <string name="history">Historial</string>
+    <string name="title">Título</string>
+    <string name="amount">Monto</string>
+    <string name="category">Categoría</string>
+    <string name="date">Fecha</string>
+    <string name="choose_category">Elige una categoría</string>
+    <string name="cash">Efectivo</string>
+    <string name="card">Tarjeta</string>
+    <string name="error">Error</string>
+    <string name="fingerprint">Toca el sensor de huella dactilar</string>
+    <string name="locked">bloqueado</string>
+    <string name="no_expense">No hay ningún gasto</string>
+    <string name="add_expense">Añadir gasto</string>
+</resources>

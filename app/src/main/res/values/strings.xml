@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Coinero</string>
+
+    <!-- Common -->
+    <string name="generic_error">Something wrong happened. Please try again.</string>
+    <string name="error">Error</string>
+    <string name="try_again">Try again</string>
+    <string name="of">of</string>
+    <string name="total">Total</string>
+    <string name="no_expense">There is no expense</string>
+    <string name="add_expense">Add expense</string>
+
+
+    <!-- Splash -->
+    <string name="fingerprint">Touch fingerprint sensor</string>
+    <string name="locked">locked</string>
+
+    <!-- Home -->
+    <string name="summary">Summary</string>
+
+    <!-- New Expense -->
+    <string name="new_expense">New expense</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="choose_category">Choose a category</string>
+    <string name="cash">Cash</string>
+    <string name="card">Card</string>
+
+    <!-- Categories -->
+    <string name="categories">Categories</string>
+    <string name="balance">Balance</string>
+
+    <string name="c_food">Food</string>
+    <string name="c_supermarket">Supermarket</string>
+    <string name="c_health">Health</string>
+    <string name="c_shopping">Shopping</string>
+    <string name="c_transportation">Transportation</string>
+    <string name="c_insurance">Insurance</string>
+    <string name="c_entertainment">Entertainment</string>
+    <string name="c_services">Services</string>
+    <string name="c_drinks">Drinks</string>
+    <string name="c_others">Others</string>
+
+    <!-- History -->
+    <string name="history">History</string>
+
+</resources>

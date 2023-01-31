@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="try_again">Prova di nuevo</string>
+    <string name="generic_error">Qualcosa ha sbagliato. Riprova.</string>
+    <string name="new_expense">Nuova spesa</string>
+    <string name="c_food">Cibo</string>
+    <string name="c_supermarket">Supermercato</string>
+    <string name="c_health">Salute</string>
+    <string name="c_shopping">Acquisti</string>
+    <string name="c_transportation">Trasporto</string>
+    <string name="c_insurance">Assicurazione</string>
+    <string name="c_services">Servizi</string>
+    <string name="c_drinks">Bevande</string>
+    <string name="c_others">Altri</string>
+    <string name="c_entertainment">Divertimenti</string>
+    <string name="categories">Categorie</string>
+    <string name="balance">Saldo</string>
+    <string name="total">Totale</string>
+    <string name="of">di</string>
+    <string name="summary">Riasunto</string>
+    <string name="history">Cronologia</string>
+    <string name="title">Titolo</string>
+    <string name="amount">Quantità</string>
+    <string name="category">Categoria</string>
+    <string name="date">Data</string>
+    <string name="choose_category">Scegli una categoria</string>
+    <string name="cash">Contante</string>
+    <string name="card">Carta</string>
+    <string name="error">Errore</string>
+    <string name="fingerprint">Tocca il sensore di impronte digitali</string>
+    <string name="locked">bloccato</string>
+    <string name="no_expense">No ci sono spese</string>
+    <string name="add_expense">Aggiungere spese</string>
+</resources>

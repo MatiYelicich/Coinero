@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="lightGray">#FFB0B0B0</color>
+
+    <color name="surfaceLight">#FFEDEDED</color>
+    <color name="surfaceDark">#FF121212</color>
+
+    <color name="pBlue">#FF1C3589</color>
+    <color name="pBlueLight">#FF2F4387</color>
+    <color name="pBlueDark">#FF192E77</color>
+</resources>

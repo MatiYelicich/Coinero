@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Coinero" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/pBlue</item>
+    </style>
+
+    <!-- Date picker styles -->
+    <style name="DatePickerDialogThemeLight" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/pBlueLight</item>
+        <item name="android:headerBackground">@color/pBlueLight</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowBackground">@color/surfaceLight</item>
+    </style>
+
+    <style name="DatePickerDialogThemeDark" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/pBlueDark</item>
+        <item name="android:headerBackground">@color/pBlueDark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/lightGray</item>
+        <item name="android:colorControlActivated">@color/pBlueLight</item>
+        <item name="android:windowBackground">@color/surfaceDark</item>
+    </style>
+</resources>
