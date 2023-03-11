@@ -31,4 +31,5 @@
     <string name="locked">bloccato</string>
     <string name="no_expense">No ci sono spese</string>
     <string name="add_expense">Aggiungere spese</string>
+    <string name="modes">Modalità</string>
 </resources>

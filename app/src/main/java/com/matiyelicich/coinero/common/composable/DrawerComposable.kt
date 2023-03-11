@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Analytics
 import androidx.compose.material.icons.rounded.Category
 import androidx.compose.material.icons.rounded.History
 import androidx.compose.runtime.*
@@ -21,6 +22,7 @@ import androidx.compose.ui.unit.sp
 import com.matiyelicich.coinero.CATEGORIES_SCREEN
 import com.matiyelicich.coinero.HISTORY_SCREEN
 import com.matiyelicich.coinero.R
+import com.matiyelicich.coinero.SUMMARY_SCREEN
 import com.matiyelicich.coinero.common.ext.punctuation
 import com.matiyelicich.coinero.common.ext.twoPoints
 
@@ -60,6 +62,14 @@ fun DrawerHome(
         }
         Divider()
         DrawerItem(
+            title = stringResource(R.string.summary),
+            icon = Icons.Rounded.Analytics,
+            onItemClick = {
+                openScreen(SUMMARY_SCREEN)
+                closeDrawer()
+            }
+        )
+        DrawerItem(
             title = stringResource(R.string.categories),
             icon = Icons.Rounded.Category,
             onItemClick = {
@@ -67,7 +77,6 @@ fun DrawerHome(
                 closeDrawer()
             }
         )
-        /*
         DrawerItem(
             title = stringResource(R.string.history),
             icon = Icons.Rounded.History,
@@ -76,7 +85,6 @@ fun DrawerHome(
                 closeDrawer()
             }
         )
-        */
     }
 }
 

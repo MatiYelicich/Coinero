@@ -174,7 +174,7 @@ fun NewFinanceScreen(
             }
             Spacer(modifier = Modifier.height(4.dp))
             //Date
-            DatePicker(date = date, context = context)
+            DatePickerField(date = date, context = context)
         }
 
         //Snackbar

@@ -1,7 +1,6 @@
 package com.matiyelicich.coinero
 
 import android.content.res.Resources
-import androidx.biometric.BiometricPrompt
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -23,6 +22,7 @@ import com.matiyelicich.coinero.screens.history.HistoryScreen
 import com.matiyelicich.coinero.screens.home.HomeScreen
 import com.matiyelicich.coinero.screens.newFinance.NewFinanceScreen
 import com.matiyelicich.coinero.screens.splash.SplashScreen
+import com.matiyelicich.coinero.screens.summary.SummaryScreen
 import com.matiyelicich.coinero.theme.CoineroTheme
 import kotlinx.coroutines.CoroutineScope
 
@@ -95,9 +95,14 @@ fun NavGraphBuilder.makeItSoGraph(appState: CoineroAppState, activity: CoineroAc
             openScreen = { route -> appState.navigate(route) }
         )
     }
-
     composable(HISTORY_SCREEN) {
         HistoryScreen(
+            popUpScreen = { appState.popUp() },
+            openScreen = { route -> appState.navigate(route) }
+        )
+    }
+    composable(SUMMARY_SCREEN) {
+        SummaryScreen(
             popUpScreen = { appState.popUp() },
             openScreen = { route -> appState.navigate(route) }
         )
